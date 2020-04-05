@@ -8,6 +8,8 @@ import { SideNavComponent } from './component/side-nav/side-nav.component';
 import { ToolbarComponent } from './component/toolbar/toolbar.component';
 import { MaterialModule } from '../shared/material.module';
 import { RouterModule } from '@angular/router';
+import { InvoicesModule } from '../invoices/invoices.module';
+import { ClientListComponent } from '../clients/component/client-list/client-list.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { RouterModule } from '@angular/router';
     CommonModule,
     DashboardRoutingModule,
     MaterialModule,
-    RouterModule
+    RouterModule,
+    // InvoicesModule,
+    // ClientListComponent
   ]
 })
 export class DashboardModule { }
